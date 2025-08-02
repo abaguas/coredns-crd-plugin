@@ -12,11 +12,6 @@
       "groupSlug": "all-minor-patch"
     },
     {
-      "matchPackagePatterns": ["*"],
-      "groupName": "All dependencies",
-      "separateMajorMinor": false
-    },
-    {
       "matchPackageNames": ["github.com/coredns/caddy/v2"],
       "enabled": false
     },
