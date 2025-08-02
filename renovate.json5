@@ -1,8 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "labels": ["dependencies", "renovate"],
   "prConcurrentLimit": 15, 
   "packageRules": [
@@ -11,7 +9,7 @@
       "matchUpdateTypes": ["minor","patch"],
       "matchCurrentVersion": "!/^v?0/",
       "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch",
+      "groupSlug": "all-minor-patch"
     },
     {
       "matchPackagePatterns": ["*"],
@@ -23,9 +21,7 @@
       "enabled": false
     },
     {
-      "matchDepTypes": [
-        "action"
-      ],
+      "matchDepTypes": ["action"],
       "pinDigests": true
     }
   ]
