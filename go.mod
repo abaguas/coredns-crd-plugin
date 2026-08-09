@@ -1,6 +1,6 @@
 module github.com/k8gb-io/coredns-crd-plugin
 
-go 1.24.2
+go 1.25.0
 
 require (
 	github.com/coredns/caddy v1.1.2-0.20241029205200-8de985351a98
@@ -8,8 +8,9 @@ require (
 	github.com/k8gb-io/go-weight-shuffling v0.4.0
 	github.com/maxmind/mmdbwriter v1.0.0
 	github.com/miekg/dns v1.1.66
-	github.com/oschwald/maxminddb-golang v1.13.1
-	github.com/stretchr/testify v1.10.0
+	github.com/oschwald/maxminddb-golang v1.13.0
+	github.com/oschwald/maxminddb-golang/v2 v2.5.0
+	github.com/stretchr/testify v1.11.1
 	go.uber.org/mock v0.5.2
 	k8s.io/api v0.33.2
 	k8s.io/apimachinery v0.33.2
@@ -160,17 +161,17 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
-	golang.org/x/crypto v0.39.0 // indirect
+	golang.org/x/crypto v0.54.0 // indirect
 	golang.org/x/exp v0.0.0-20250210185358-939b2ce775ac // indirect
-	golang.org/x/mod v0.25.0 // indirect
-	golang.org/x/net v0.41.0 // indirect
+	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/net v0.57.0 // indirect
 	golang.org/x/oauth2 v0.30.0 // indirect
-	golang.org/x/sync v0.15.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/term v0.32.0 // indirect
-	golang.org/x/text v0.26.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/term v0.45.0 // indirect
+	golang.org/x/text v0.40.0 // indirect
 	golang.org/x/time v0.12.0 // indirect
-	golang.org/x/tools v0.33.0 // indirect
+	golang.org/x/tools v0.48.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	google.golang.org/api v0.238.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250505200425-f936aa4a68b2 // indirect
